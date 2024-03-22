@@ -1,0 +1,135 @@
+#global{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 20rem;
+}
+#main-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#main-section > div {    
+    width: 400px;       
+    height: 440px;    
+}
+.form-content > div{
+    padding-bottom: 0.5rem;
+}
+#form-container {   
+    padding-top: 10rem;
+}
+#the-form{
+    width: 750px;
+    padding: 40px;        
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;    
+}
+#the-form h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#the-form input[type="text"],
+#the-form input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;    
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0, 25s;
+}
+#the-form input[type="text"]:focus,
+#the-form input[type="password"]:focus {
+    width: 230px;    
+}
+#the-form input[type="submit"],
+input[type="button"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0, 25s;
+    cursor: pointer;
+}
+#the-form input[type="submit"]:hover,
+#the-form input[type="button"]:hover {
+    background: #2ecc71;
+}
+#buttons-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+#buttons-section > div {    
+    width: 600px;       
+    height: 70px;    
+}
+.invalid-feedback{
+    color: white;
+}
+#the-form select {
+    border: 0;
+    background: none;
+    display: block;    
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db; /* Cambia el color del borde según sea necesario */
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    appearance: none; /* Oculta la flecha predeterminada del select */
+}
+
+#the-form select:focus {
+    width: 230px;    
+}
+
+#the-form select::-ms-expand {
+    display: none; /* Oculta la flecha predeterminada del select en IE Edge */
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    color: white; /* Cambiar el color del texto a blanco */
+    padding-left: 7rem;
+  }
+  
+  .radio-row {
+    display: flex;
+    align-items: center; /* Alinear elementos horizontalmente */
+    justify-content: flex-start; /* Alinear elementos a la izquierda */
+    margin-bottom: 5px; /* Espacio entre cada fila */
+  }
+  
+  .radio-row label {
+    margin-left: 10px; /* Espacio entre radio button y etiqueta */
+  }
+  
+  #invalid-feedback-rad{
+    padding-right: 7rem;
+  }
+  .background-image {
+    background-image: url('../../../../assets/fondo-mujer-joven-derecha.png'); 
+    background-position: right center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 95vh;
+}  
